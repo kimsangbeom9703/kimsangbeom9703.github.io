@@ -138,10 +138,10 @@ footer:
       url:  "https://www.facebook.com/profile.php?id=100003572266330"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/kimsangbeom9703"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: "https://github.com/kimsangbeom9703"
+      # url: "https://github.com/kimsangbeom9703"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
@@ -285,7 +285,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       show_date: true
