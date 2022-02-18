@@ -1,0 +1,66 @@
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <li>
+      <span class="nav__sub-title">공부</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Javascript" %}
+                        <li><a href="/categories/javascript" class="">Javascript ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "PHP" %}
+                        <li><a href="/categories/php" class="">PHP ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "MySql" %}
+                        <li><a href="/categories/mysql" class="">MySql ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "NodeJS" %}
+                        <li><a href="/categories/nodejs" class="">NodeJS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Git" %}
+                        <li><a href="/categories/git" class="">Git ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ENG" %}
+                        <li><a href="/categories/eng" class="">영어 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">일상</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Trip" %}
+                        <li><a href="/categories/trip" class="">여행 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Dog" %}
+                        <li><a href="/categories/dog" class="">숑숑이들 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+  </ul>
+</nav>
