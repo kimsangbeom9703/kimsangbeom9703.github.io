@@ -64,6 +64,18 @@ layout: default
       {% include comments.html %}
     {% endif %}
   </article>
+  <div class="col-lg-8 col-md-10 mx-auto">
+    <hr />
+
+    <script src="https://utteranc.es/client.js"
+            repo="kimsangbeom9703 / kimsangbeom9703.github.io"
+            issue-term="url"
+            theme="github-dark"
+            crossorigin="anonymous"
+            async>
+    </script>
+
+  </div>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
