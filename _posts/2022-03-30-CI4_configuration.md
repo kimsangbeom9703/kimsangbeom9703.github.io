@@ -11,6 +11,7 @@ toc: false   #Table Of Contents 목차
 toc_sticky: false
 ---
 CI4 를 사용하다 보면 .env 파일 즉 구성파일을 사용하여 매개변수 및 초기 설정을 한다.
+
 간단하게 📌일부만 살펴보면
 
 ```
