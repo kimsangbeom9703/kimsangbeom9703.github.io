@@ -17,13 +17,13 @@ tag에 data 속성을 주고 제어할 때 주로 사용한다.
 
 ## html
 
-```
+```html
 <div data-id ="test"> </div>
 ```
 
 ## js
 
-```
+```javascript
   $('[data-id="test"').addClass('add_class');
 ```
 

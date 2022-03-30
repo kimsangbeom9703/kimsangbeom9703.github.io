@@ -19,7 +19,7 @@ php 에서 클래스를 선언할 후에 인스턴스를 생성하게 되고 자
 
 주로 나같은 경우에는 생성자에 객체에서 공통으로 사용할 모델 , 렌더링될 view 를 선언하는 편이다.
 
-```
+```php
 class Test 
 {
     public function __construct(){
@@ -31,7 +31,7 @@ class Test
 
 ## 예시
 
-```
+```php
 class Testclass
 {
   public $name ;
@@ -48,7 +48,7 @@ class Testclass
 }
 ```
 라고 쓰고 다른 클래스에서
-```
+```php
 class Nameclass
 {
   public  function index(){
@@ -67,7 +67,7 @@ class Nameclass
 
 ## 부모의 생성자 호출
 
-```
+```php
 class Testclass extends BigTestController
 {
   function __construct ( $name )
@@ -77,7 +77,7 @@ class Testclass extends BigTestController
 }
 ```
 Testclass 에서 부모 즉 BigTestController 의 생성자를 호출할 수 있다.
-```
+```php
   abstract class BigTestController extends Controller
   {
 	public function __construct()
@@ -87,7 +87,7 @@ Testclass 에서 부모 즉 BigTestController 의 생성자를 호출할 수 있
   }
 ```
 
-```
+```php
 class Testclass extends BigTestController
 {
   function __construct ( $name )
