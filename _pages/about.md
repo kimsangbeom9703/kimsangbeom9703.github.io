@@ -9,10 +9,8 @@ show_date : False
 
 ## 김상범의 블로그
 
-이 블로그는 저의 모든 것을 공유하는 블로그입니다.
+많이 부족한 블로그지만 천천히 하나씩 작성해보려고 합니다~!
 
-많은 관심 부탁드립니다.
+제가 잘못 알고 있는 부분이나 도움 주고 싶은 게 있으면 언제나 댓글 부탁드리겠습니다~!
 
-This blog is where I share my everything.
-
-Thank you for your interest.
+감사합니다.
