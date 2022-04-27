@@ -2,7 +2,7 @@
 layout: single
 title:  "Jquery data 속성으로 요소 검색하기"
 date:   2022-03-11 10:36:52 +0900
-tags: javascript
+tags: Javascript
 categories: 
 - Study
 - Javascript
