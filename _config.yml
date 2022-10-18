@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "김상범"
-  avatar           : # "/assets/img/me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/img/me_1.jpg" # "/assets/img/me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "기록하는 습관을 갖자"
   location         : "Korea - Bucheon"
   email            : "kp41589272@gmail.com"
