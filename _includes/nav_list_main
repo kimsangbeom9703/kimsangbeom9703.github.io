@@ -69,6 +69,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Food" %}
+                        <li><a href="/categories/food" class="">맛집 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
       <li>
         <a href="https://hits.seeyoufarm.com">
