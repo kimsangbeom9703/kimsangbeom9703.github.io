@@ -4,22 +4,44 @@
 
 * { box-sizing: border-box; }
 
+// html {
+//   /* apply a natural box layout model to all elements */
+//   box-sizing: border-box;
+//   background-color: $background-color;
+//   font-size: 15px;
+
+//   @include breakpoint($medium) {
+//     font-size: 17px;
+//   }
+
+//   @include breakpoint($large) {
+//     font-size: 17px;
+//   }
+
+//   @include breakpoint($x-large) {
+//     font-size: 17px;
+//   }
+
+//   -webkit-text-size-adjust: 100%;
+//   -ms-text-size-adjust: 100%;
+// }
+
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 15px;
+  font-size: 17px;
 
   @include breakpoint($medium) {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   @include breakpoint($large) {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   @include breakpoint($x-large) {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   -webkit-text-size-adjust: 100%;
