@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "로컬에서 Git 블로그 작성 후 확인하는 법"
+title:  "[Git] 로컬에서 Git 블로그 작성 후 확인하는 법"
 date:   2022-03-31 17:30:00 +0900
 tags: Study Git
 categories:
