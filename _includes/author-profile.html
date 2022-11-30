@@ -240,6 +240,14 @@
         </li>
       {% endif %}
 
+      {% if author.Naver %}
+      <li>
+        <a href="https://blog.naver.com/{{ author.instagram }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+          <i class="fab fa-duotone fa-n" aria-hidden="true"></i><span class="label">Naver</span>
+        </a>
+      </li>
+    {% endif %}
+
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
