@@ -129,6 +129,10 @@ author:
     - label: "Naver"
       icon: "fab fa-fw fa-neos"
       url:  "https://blog.naver.com/kp9703"      
+    
+    - label: "Velog"
+      icon: "fab fa-fw fa-vimeo"
+      url:  "https://velog.io/@kimsangbeom9703"         
 
 # Site Footer
 footer:
@@ -158,9 +162,14 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/_sb___k/?hl=ko"
+   
     - label: "Naver"
       icon: "fab fa-fw fa-neos"
       url:  "https://blog.naver.com/kp9703"   
+
+    - label: "Velog"
+      icon: "fab fa-fw fa-vimeo"
+      url:  "https://velog.io/@kimsangbeom9703"         
 
 # Reading Files
 include:
