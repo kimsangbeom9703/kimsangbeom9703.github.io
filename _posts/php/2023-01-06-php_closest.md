@@ -36,8 +36,6 @@ toc_sticky: true
 ```php
   $callArrays = ['0210','0510','0810','1110','1410','1710','2010','2310']; 
   $search = '1200';
-
   $return = getClosest($search,$callArrays);
   echo $return // 1110
-
 ```
