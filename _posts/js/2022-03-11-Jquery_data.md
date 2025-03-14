@@ -10,7 +10,7 @@ categories:
 toc: false   #Table Of Contents 목차
 toc_sticky: false
 ---
-1
+
 jquery를 사용할 때 자주 쓰는 기능이다
 
 tag에 data 속성을 주고 제어할 때 주로 사용한다.
