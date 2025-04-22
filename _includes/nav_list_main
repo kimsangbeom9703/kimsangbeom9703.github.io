@@ -1,0 +1,95 @@
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <li>
+      <span class="nav__sub-title">1. 웹개발</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "JAVA" %}
+                        <li><a href="/categories/java" class="">JAVA ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "NestJS" %}
+                        <li><a href="/categories/nestjs" class="">NestJS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "NodeJS" %}
+                        <li><a href="/categories/nodejs" class="">NodeJS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Python" %}
+                        <li><a href="/categories/python" class="">Python ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "PHP" %}
+                        <li><a href="/categories/php" class="">PHP ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Javascript" %}
+                        <li><a href="/categories/javascript" class="">JavaScript ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Typescript" %}
+                        <li><a href="/categories/typescript" class="">TypeScript ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Electron" %}
+                        <li><a href="/categories/electron" class="">Electron ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Git" %}
+                        <li><a href="/categories/git" class="">Git ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      <span class="nav__sub-title">2. Database</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "MySql" %}
+                        <li><a href="/categories/mysql" class="">MySql ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      <span class="nav__sub-title">3. Server</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Server" %}
+                        <li><a href="/categories/server" class="">Server ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      <span class="nav__sub-title">4. 기타</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Tip" %}
+                        <li><a href="/categories/tip" class="">팁 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+  </ul>
+</nav>
