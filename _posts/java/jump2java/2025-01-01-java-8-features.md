@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[JAVA] 점프 투 자바 #1 자바의 8가지 특정"
+title:  "[JAVA] 점프 투 자바 #1zzzzzzz 자바의 8가지 특정"
 date:   2025-04-22 14:07:00 +0900
 tags: JAVA
 categories: 
