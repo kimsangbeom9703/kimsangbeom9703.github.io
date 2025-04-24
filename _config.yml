@@ -138,39 +138,32 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url:  "https://www.facebook.com/profile.php?id=100003572266330"
+    #    - label: "Email"
+    #      icon: "fas fa-fw fa-envelope-square"
+    #      # url: "mailto:your.name@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/kimsangbeom9703/TIL"
+    #    - label: "Twitter"
+    #      icon: "fab fa-fw fa-twitter-square"
+    #      # url: "https://twitter.com/"
+    #    - label: "Facebook"
+    #      icon: "fab fa-fw fa-facebook-square"
+    #      url:  "https://www.facebook.com/profile.php?id=100003572266330"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-
-      url: "https://github.com/kimsangbeom9703"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
       url: "https://github.com/kimsangbeom9703"
 
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url: "https://github.com/kimsangbeom9703"
-
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/_sb___k/?hl=ko"
-
-    - label: "Naver"
-      icon: "fab fa-fw fa-neos"
-      url:  "https://blog.naver.com/kp9703"
-
-    - label: "Velog"
-      icon: "fab fa-fw fa-vimeo"
-      url:  "https://velog.io/@kimsangbeom9703"
+    #    - label: "Instagram"
+    #      icon: "fab fa-fw fa-instagram"
+    #      url: "https://www.instagram.com/_sb___k/?hl=ko"
+    #    - label: "Naver"
+    #      icon: "fab fa-fw fa-neos"
+    #      url:  "https://blog.naver.com/kp9703"
+    #
+    #    - label: "Velog"
+    #      icon: "fab fa-fw fa-vimeo"
+    #      url:  "https://velog.io/@kimsangbeom9703"
 
 # Reading Files
 include:
